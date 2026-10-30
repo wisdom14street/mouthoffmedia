@@ -1,0 +1,30 @@
+# Mouth Off Media
+
+> Mouth Off Media is the web design and digital solutions brand of WealthEdge Ventures Inc. (a New York corporation) doing business as Wisdom Digital, based in New York City. We design and build websites, Shopify storefronts, web apps and PWAs, and handle SEO and AI-search visibility.
+
+Contact: phone 516-603-5264, email sahwisdom@gmail.com. Pricing is quoted per project; no public price list.
+
+## Pages
+- [Home](https://mouthoffmedia.com/): overview of services, process and live work
+- [Services](https://mouthoffmedia.com/services/): Web design; Ecommerce and Shopify storefronts; Web apps and PWAs; SEO and AI-search visibility; Local business presence; Branding and link-preview images; Multi-site networks
+- [Work](https://mouthoffmedia.com/work/): live sites we built (our in-house network for Namaste Bookshop, a sister business)
+- [Process](https://mouthoffmedia.com/process/): talk, plan, build, launch, grow
+- [About](https://mouthoffmedia.com/about/): ownership and background
+- [Contact](https://mouthoffmedia.com/contact/): start a project
+
+## Live work
+- [Manhattan Crystal Market](https://manhattancrystalmarket.com/): Shopify storefront. A crystal shop storefront with a multi-item cart that checks out through one shared Shopify store, plus clear walk-in directions to the shop at 2 W 14th St.
+- [Namaste Crystal Shop](https://namastecrystalshop.com/): Shopify storefront. Crystals A to Z with meanings, kits and pocket stones, organized for search and for shoppers who know what they want.
+- [Namaste Candles](https://namastecandles.com/): Shopify storefront. Ritual, intention, reiki and chakra candles, with its own look and copy, selling from the same live inventory.
+- [Namaste Great Finds](https://namastegreatfinds.com/): Gift-finder storefront. Spiritual gifts sorted by price point (under $10, $25 and $50) so gift shoppers get to a decision fast.
+- [NYC Tarot Readers](https://nyctarotreaders.com/): Local directory. A New York City tarot reader directory with listing pages, featured in-house readers with booking pages, and a claim-your-listing flow.
+- [NYC Psychic Readers](https://nycpsychicreaders.com/): Local directory. A sister directory for psychics, mediums and palm readers across NYC, built to rank for local search.
+- [Namaste Beads](https://namastebeads.com/): Shopify storefront. Beaded crystal bracelets and malas, with a mobile-first product grid and a link-preview card made for sharing.
+- [Namaste Bead Shop](https://namastebeadshop.com/): Shopify storefront. Malas, prayer beads and meditation tools, written for its own niche rather than copied from its siblings.
+- [Namaste Bead Store](https://namastebeadstore.com/): Shopify storefront. Stone bead bracelets shopped by stone and by intention.
+- [Namaste Crystal Jewelry](https://namastecrystaljewelry.com/): Shopify storefront. Crystal and gemstone jewelry with filters, a sticky cart and one-tap checkout.
+- [Namaste Jewelry Shop](https://namastejewelryshop.com/): Shopify storefront. Sterling silver gemstone jewelry with its own brand voice.
+- [Namaste Jewelry Store](https://namastejewelrystore.com/): Gift storefront. Crystal jewelry gifts under $30, built around a single clear buying angle.
+- [Namaste Incense](https://namasteincense.com/): Shopify storefront. An incense shop storefront covering sticks, cones, resins and smudge, with in-store pickup directions.
+- [Namaste Incense Shop](https://namasteincenseshop.com/): Shopify storefront. An incense satellite storefront focused on its own slice of the catalog.
+- [Namaste Incense Store](https://namasteincensestore.com/): Shopify storefront. A third incense storefront with a different angle, still on one inventory.
