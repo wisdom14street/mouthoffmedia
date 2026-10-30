@@ -13,6 +13,9 @@ BRAND = 'Mouth Off Media'
 LEGAL = 'WealthEdge Ventures Inc., doing business as Wisdom Digital'
 TAG = 'Websites that speak up.'
 E = html.escape
+GA_ID = 'G-Y7R5K9NMW0'  # Google Analytics 4, one property shared by all sites
+GA_HEAD = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>'
+           f'<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{GA_ID}",' + json.dumps({'site_brand': BRAND}) + ');</script>')
 
 WORK = [  # (domain, title, kind, blurb, https)
  ('manhattancrystalmarket.com','Manhattan Crystal Market','Shopify storefront','A crystal shop storefront with a multi-item cart that checks out through one shared Shopify store, plus clear walk-in directions to the shop at 2 W 14th St.',1),
@@ -75,6 +78,7 @@ def page(path, title, desc, body, active='', extra_ld=None, noindex=False):
     return f'''<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+{GA_HEAD}
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{url}">{'<meta name="robots" content="noindex">' if noindex else ''}
@@ -202,7 +206,7 @@ def privacy():
         f'''<section class="hero sm"><div class="wrap"><p class="eyebrow">Privacy</p><h1>Privacy</h1></div></section>
 <section class="sec"><div class="wrap narrow prose">
 <p>This website is operated by {LEGAL} ("{BRAND}"), New York, NY.</p>
-<h2>What we collect</h2><p>This site has no accounts, no tracking cookies and no analytics scripts of our own. The project form does not send data to our servers. When you submit it, your own email app opens a message addressed to {CONTACT_EMAIL}, and you choose whether to send it.</p>
+<h2>What we collect</h2><p>This site has no accounts. We use Google Analytics to count visits and see which pages are useful, and to count when someone taps call, email or sends the project form; Google may set cookies to do this. The project form does not send data to our servers. When you submit it, your own email app opens a message addressed to {CONTACT_EMAIL}, and you choose whether to send it.</p>
 <h2>What happens when you contact us</h2><p>If you email or call us, we use your details only to respond to you and to work on your project. We do not sell your information.</p>
 <h2>Hosting</h2><p>The site is hosted on GitHub Pages. GitHub may process standard technical data such as IP addresses in server logs to deliver and secure the site.</p>
 <h2>App and offline use</h2><p>If you install this site as an app, your device stores a copy of some pages so they work offline. You can remove it at any time by uninstalling the app or clearing site data.</p>

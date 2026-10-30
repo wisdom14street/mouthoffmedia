@@ -1,4 +1,6 @@
 (function(){
+function ga(n,p){try{if(typeof window.gtag==='function')window.gtag('event',n,p||{})}catch(_){}}
+document.addEventListener('click',function(e){try{var a=e.target&&e.target.closest&&e.target.closest('a[href^="tel:"],a[href^="mailto:"]');if(a)ga('generate_lead',{link_type:/^tel:/i.test(a.getAttribute('href'))?'phone':'email',link_url:a.getAttribute('href'),transport_type:'beacon'})}catch(_){}},true);
 var m=document.querySelector('.menu'),n=document.getElementById('nav');
 if(m&&n){m.addEventListener('click',function(){var o=n.classList.toggle('open');m.setAttribute('aria-expanded',o)});
 n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');m.setAttribute('aria-expanded',false)}})}
@@ -9,6 +11,7 @@ if(!name||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)||!msg){er.textContent='Please a
 er.hidden=true;var sv=[].slice.call(f.querySelectorAll('input[name=svc]:checked')).map(function(x){return x.value});
 var body='Name: '+name+'\nEmail: '+em+'\nPhone: '+(g('phone')||'-')+'\nBusiness / website: '+(g('biz')||'-')+'\nServices: '+(sv.join(', ')||'-')+'\nTimeline: '+(g('when')||'-')+'\n\nProject:\n'+msg+'\n\n(Sent from mouthoffmedia.com)';
 var subj='New project: '+(g('biz')||name);
+ga('generate_lead',{link_type:'project_form',form_id:'inquiry',services:sv.join(', ').slice(0,100),transport_type:'beacon'});
 location.href='mailto:'+f.dataset.to+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body)})}
 if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){})})}
 })();
