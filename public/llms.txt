@@ -28,3 +28,8 @@ Contact: phone 516-603-5264, email sahwisdom@gmail.com. Pricing is quoted per pr
 - [Namaste Incense](https://namasteincense.com/): Shopify storefront. An incense shop storefront covering sticks, cones, resins and smudge, with in-store pickup directions.
 - [Namaste Incense Shop](https://namasteincenseshop.com/): Shopify storefront. An incense satellite storefront focused on its own slice of the catalog.
 - [Namaste Incense Store](https://namasteincensestore.com/): Shopify storefront. A third incense storefront with a different angle, still on one inventory.
+- [Namaste Tarot](https://namastetarot.com/): Readings + storefront. A tarot label for a bookshop: book a reader by deck and style, then buy decks and reading-table goods that check out through Shopify.
+- [Namaste Tarot Center](https://namastetarotcenter.com/): Learning site. A free tarot study site with notes for every card, practice spreads and study decks, built as a clear learning path.
+- [Namaste Psychics](https://namastepsychics.com/): Service site. Psychic readers explained by reading type, with phone sessions for clients outside New York.
+- [NYC Tarot Reader](https://nyctarotreader.com/): Booking guide. A first-timer walk-through that gets someone from curious to booked for a reading the same day.
+- [Psychic Center of New York](https://psychiccenterofnewyork.com/): Location site. A building-directory style guide to the reading rooms on two floors, with sessions, schedule and visit info.

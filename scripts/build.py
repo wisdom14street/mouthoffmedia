@@ -33,6 +33,11 @@ WORK = [  # (domain, title, kind, blurb, https)
  ('namasteincense.com','Namaste Incense','Shopify storefront','An incense shop storefront covering sticks, cones, resins and smudge, with in-store pickup directions.',1),
  ('namasteincenseshop.com','Namaste Incense Shop','Shopify storefront','An incense satellite storefront focused on its own slice of the catalog.',1),
  ('namasteincensestore.com','Namaste Incense Store','Shopify storefront','A third incense storefront with a different angle, still on one inventory.',1),
+ ('namastetarot.com','Namaste Tarot','Readings + storefront','A tarot label for a bookshop: book a reader by deck and style, then buy decks and reading-table goods that check out through Shopify.',1),
+ ('namastetarotcenter.com','Namaste Tarot Center','Learning site','A free tarot study site with notes for every card, practice spreads and study decks, built as a clear learning path.',1),
+ ('namastepsychics.com','Namaste Psychics','Service site','Psychic readers explained by reading type, with phone sessions for clients outside New York.',1),
+ ('nyctarotreader.com','NYC Tarot Reader','Booking guide','A first-timer walk-through that gets someone from curious to booked for a reading the same day.',1),
+ ('psychiccenterofnewyork.com','Psychic Center of New York','Location site','A building-directory style guide to the reading rooms on two floors, with sessions, schedule and visit info.',1),
 ]
 SERVICES = [
  ('web','Web design','Custom, fast, mobile-first websites with a voice of their own. No bloated templates. Every page is built to load quickly and to push visitors toward one clear next step.',['Mobile-first layouts tested on real phone sizes','Copy and structure built around how your customers actually buy','Fast static hosting where it fits, so you are not paying for servers you do not need']),
@@ -160,7 +165,7 @@ def work():
         f'''<section class="hero sm"><div class="wrap"><p class="eyebrow">Work</p><h1>Live sites. <em>Go poke at them.</em></h1>
 <p class="lede">These are real, live websites. They are our in-house network for Namaste Bookshop, a sister business under the same ownership on West 14th Street in Manhattan. Each site has its own brand and niche, and all of them sell from one shared Shopify inventory and checkout.</p></div></section>
 <section class="sec"><div class="wrap"><div class="work all">{''.join(work_card(w) for w in WORK)}</div>
-<p class="muted small">Screenshots taken from the live sites. Some storefronts are still finishing their HTTPS setup and may open over http for now.</p></div></section>{cta()}''', '/work/')
+<p class="muted small">Screenshots taken from the live sites.</p></div></section>{cta()}''', '/work/')
 
 def process():
     steps = ''.join(f'<section class="svc-full"><span class="n">{i+1:02d}</span><div><h2>{E(a)}</h2><p>{E(b)}</p></div></section>' for i, (a, b) in enumerate(STEPS))
