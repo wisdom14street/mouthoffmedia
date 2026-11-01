@@ -20,6 +20,9 @@ GA_HEAD = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_
 WORK = [  # (domain, title, kind, blurb, https)
  ('manhattancrystalmarket.com','Manhattan Crystal Market','Shopify storefront','A crystal shop storefront with a multi-item cart that checks out through one shared Shopify store, plus clear walk-in directions to the shop at 2 W 14th St.',1),
  ('namastecrystalshop.com','Namaste Crystal Shop','Shopify storefront','Crystals A to Z with meanings, kits and pocket stones, organized for search and for shoppers who know what they want.',1),
+ ('namastebooks.com','Namaste Books','Bookstore storefront','A bookstore that opens straight onto the shelves: 19 topic shelves, new arrivals, author pages and a popular row driven by real sales order.',1),
+ ('namastefineminerals.com','Namaste Fine Minerals','Collector showcase','A gallery-style mineral specimen showcase, finest pieces first, browsable by mineral, locality, size and price.',1),
+ ('namastemetaphysicalshop.com','Namaste Metaphysical Shop','Shopify storefront','Altar tools, statues, pendulums, sound tools and ritual oils, arranged like apothecary drawers.',1),
  ('namastecandles.com','Namaste Candles','Shopify storefront','Ritual, intention, reiki and chakra candles, with its own look and copy, selling from the same live inventory.',1),
  ('namastegreatfinds.com','Namaste Great Finds','Gift-finder storefront','Spiritual gifts sorted by price point (under $10, $25 and $50) so gift shoppers get to a decision fast.',1),
  ('nyctarotreaders.com','NYC Tarot Readers','Local directory','A New York City tarot reader directory with listing pages, featured in-house readers with booking pages, and a claim-your-listing flow.',1),
