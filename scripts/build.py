@@ -31,8 +31,8 @@ WORK = [  # (domain, title, kind, blurb, https)
  ('namastejewelryshop.com','Namaste Jewelry Shop','Shopify storefront','Sterling silver gemstone jewelry with its own brand voice.',1),
  ('namastejewelrystore.com','Namaste Jewelry Store','Gift storefront','Crystal jewelry gifts under $30, built around a single clear buying angle.',1),
  ('namasteincense.com','Namaste Incense','Shopify storefront','An incense shop storefront covering sticks, cones, resins and smudge, with in-store pickup directions.',1),
- ('namasteincenseshop.com','Namaste Incense Shop','Shopify storefront','An incense satellite storefront focused on its own slice of the catalog.',0),
- ('namasteincensestore.com','Namaste Incense Store','Shopify storefront','A third incense storefront with a different angle, still on one inventory.',0),
+ ('namasteincenseshop.com','Namaste Incense Shop','Shopify storefront','An incense satellite storefront focused on its own slice of the catalog.',1),
+ ('namasteincensestore.com','Namaste Incense Store','Shopify storefront','A third incense storefront with a different angle, still on one inventory.',1),
 ]
 SERVICES = [
  ('web','Web design','Custom, fast, mobile-first websites with a voice of their own. No bloated templates. Every page is built to load quickly and to push visitors toward one clear next step.',['Mobile-first layouts tested on real phone sizes','Copy and structure built around how your customers actually buy','Fast static hosting where it fits, so you are not paying for servers you do not need']),
