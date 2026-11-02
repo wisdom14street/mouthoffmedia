@@ -17,31 +17,7 @@ GA_ID = 'G-Y7R5K9NMW0'  # Google Analytics 4, one property shared by all sites
 GA_HEAD = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>'
            f'<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{GA_ID}",' + json.dumps({'site_brand': BRAND}) + ');</script>')
 
-WORK = [  # (domain, title, kind, blurb, https)
- ('manhattancrystalmarket.com','Manhattan Crystal Market','Shopify storefront','A crystal shop storefront with a multi-item cart that checks out through one shared Shopify store, plus clear walk-in directions to the shop at 2 W 14th St.',1),
- ('namastecrystalshop.com','Namaste Crystal Shop','Shopify storefront','Crystals A to Z with meanings, kits and pocket stones, organized for search and for shoppers who know what they want.',1),
- ('namastebooks.com','Namaste Books','Bookstore storefront','A bookstore that opens straight onto the shelves: 19 topic shelves, new arrivals, author pages and a popular row driven by real sales order.',1),
- ('namastefineminerals.com','Namaste Fine Minerals','Collector showcase','A gallery-style mineral specimen showcase, finest pieces first, browsable by mineral, locality, size and price.',1),
- ('namastemetaphysicalshop.com','Namaste Metaphysical Shop','Shopify storefront','Altar tools, statues, pendulums, sound tools and ritual oils, arranged like apothecary drawers.',1),
- ('namastecandles.com','Namaste Candles','Shopify storefront','Ritual, intention, reiki and chakra candles, with its own look and copy, selling from the same live inventory.',1),
- ('namastegreatfinds.com','Namaste Great Finds','Gift-finder storefront','Spiritual gifts sorted by price point (under $10, $25 and $50) so gift shoppers get to a decision fast.',1),
- ('nyctarotreaders.com','NYC Tarot Readers','Local directory','A New York City tarot reader directory with listing pages, featured in-house readers with booking pages, and a claim-your-listing flow.',1),
- ('nycpsychicreaders.com','NYC Psychic Readers','Local directory','A sister directory for psychics, mediums and palm readers across NYC, built to rank for local search.',1),
- ('namastebeads.com','Namaste Beads','Shopify storefront','Beaded crystal bracelets and malas, with a mobile-first product grid and a link-preview card made for sharing.',1),
- ('namastebeadshop.com','Namaste Bead Shop','Shopify storefront','Malas, prayer beads and meditation tools, written for its own niche rather than copied from its siblings.',1),
- ('namastebeadstore.com','Namaste Bead Store','Shopify storefront','Stone bead bracelets shopped by stone and by intention.',1),
- ('namastecrystaljewelry.com','Namaste Crystal Jewelry','Shopify storefront','Crystal and gemstone jewelry with filters, a sticky cart and one-tap checkout.',1),
- ('namastejewelryshop.com','Namaste Jewelry Shop','Shopify storefront','Sterling silver gemstone jewelry with its own brand voice.',1),
- ('namastejewelrystore.com','Namaste Jewelry Store','Gift storefront','Crystal jewelry gifts under $30, built around a single clear buying angle.',1),
- ('namasteincense.com','Namaste Incense','Shopify storefront','An incense shop storefront covering sticks, cones, resins and smudge, with in-store pickup directions.',1),
- ('namasteincenseshop.com','Namaste Incense Shop','Shopify storefront','An incense satellite storefront focused on its own slice of the catalog.',1),
- ('namasteincensestore.com','Namaste Incense Store','Shopify storefront','A third incense storefront with a different angle, still on one inventory.',1),
- ('namastetarot.com','Namaste Tarot','Readings + storefront','A tarot label for a bookshop: book a reader by deck and style, then buy decks and reading-table goods that check out through Shopify.',1),
- ('namastetarotcenter.com','Namaste Tarot Center','Learning site','A free tarot study site with notes for every card, practice spreads and study decks, built as a clear learning path.',1),
- ('namastepsychics.com','Namaste Psychics','Service site','Psychic readers explained by reading type, with phone sessions for clients outside New York.',1),
- ('nyctarotreader.com','NYC Tarot Reader','Booking guide','A first-timer walk-through that gets someone from curious to booked for a reading the same day.',1),
- ('psychiccenterofnewyork.com','Psychic Center of New York','Location site','A building-directory style guide to the reading rooms on two floors, with sessions, schedule and visit info.',1),
-]
+WORK = [('manhattancrystalmarket.com', 'Manhattan Crystal Market', 'Shopify storefront', 'A crystal shop storefront with a multi-item cart that checks out through one shared Shopify store, plus clear walk-in directions to the shop at 2 W 14th St.', 1), ('namastecrystalshop.com', 'Namaste Crystal Shop', 'Shopify storefront', 'Crystals A to Z with meanings, kits and pocket stones, organized for search and for shoppers who know what they want.', 1), ('namastebooks.com', 'Namaste Books', 'Bookstore storefront', 'A bookstore that opens straight onto the shelves: 19 topic shelves, new arrivals, author pages and a popular row driven by real sales order.', 1), ('namastefineminerals.com', 'Namaste Fine Minerals', 'Collector showcase', 'A gallery-style mineral specimen showcase, finest pieces first, browsable by mineral, locality, size and price.', 1), ('namastemetaphysicalshop.com', 'Namaste Metaphysical Shop', 'Shopify storefront', 'Altar tools, statues, pendulums, sound tools and ritual oils, arranged like apothecary drawers.', 1), ('namastecandles.com', 'Namaste Candles', 'Shopify storefront', 'Ritual, intention, reiki and chakra candles, with its own look and copy, selling from the same live inventory.', 1), ('namastegreatfinds.com', 'Namaste Great Finds', 'Gift-finder storefront', 'Spiritual gifts sorted by price point (under $10, $25 and $50) so gift shoppers get to a decision fast.', 1), ('nyctarotreaders.com', 'NYC Tarot Readers', 'Local directory', 'A New York City tarot reader directory with listing pages, featured in-house readers with booking pages, and a claim-your-listing flow.', 1), ('nycpsychicreaders.com', 'NYC Psychic Readers', 'Local directory', 'A sister directory for psychics, mediums and palm readers across NYC, built to rank for local search.', 1), ('namastebeads.com', 'Namaste Beads', 'Shopify storefront', 'Beaded crystal bracelets and malas, with a mobile-first product grid and a link-preview card made for sharing.', 1), ('namastebeadshop.com', 'Namaste Bead Shop', 'Shopify storefront', 'Malas, prayer beads and meditation tools, written for its own niche rather than copied from its siblings.', 1), ('namastebeadstore.com', 'Namaste Bead Store', 'Shopify storefront', 'Stone bead bracelets shopped by stone and by intention.', 1), ('namastecrystaljewelry.com', 'Namaste Crystal Jewelry', 'Shopify storefront', 'Crystal and gemstone jewelry with filters, a sticky cart and one-tap checkout.', 1), ('namastejewelryshop.com', 'Namaste Jewelry Shop', 'Shopify storefront', 'Sterling silver gemstone jewelry with its own brand voice.', 1), ('namastejewelrystore.com', 'Namaste Jewelry Store', 'Gift storefront', 'Crystal jewelry gifts under $30, built around a single clear buying angle.', 1), ('namasteincense.com', 'Namaste Incense', 'Shopify storefront', 'An incense shop storefront covering sticks, cones, resins and smudge, with in-store pickup directions.', 1), ('namasteincenseshop.com', 'Namaste Incense Shop', 'Shopify storefront', 'An incense satellite storefront focused on its own slice of the catalog.', 1), ('namasteincensestore.com', 'Namaste Incense Store', 'Shopify storefront', 'A third incense storefront with a different angle, still on one inventory.', 1), ('namastetarot.com', 'Namaste Tarot', 'Readings + storefront', 'A tarot label for a bookshop: book a reader by deck and style, then buy decks and reading-table goods that check out through Shopify.', 1), ('namastetarotcenter.com', 'Namaste Tarot Center', 'Learning site', 'A free tarot study site with notes for every card, practice spreads and study decks, built as a clear learning path.', 1), ('namastepsychics.com', 'Namaste Psychics', 'Service site', 'Psychic readers explained by reading type, with phone sessions for clients outside New York.', 1), ('nyctarotreader.com', 'NYC Tarot Reader', 'Booking guide', 'A first-timer walk-through that gets someone from curious to booked for a reading the same day.', 1), ('psychiccenterofnewyork.com', 'Psychic Center of New York', 'Location site', 'A building-directory style guide to the reading rooms on two floors, with sessions, schedule and visit info.', 1), ('namastelongisland.com', 'Namaste Long Island', 'Website', '', 1), ('mouthoffmedia.com', 'Mouth Off Media', 'Website', '', 1)]
 SERVICES = [
  ('web','Web design','Custom, fast, mobile-first websites with a voice of their own. No bloated templates. Every page is built to load quickly and to push visitors toward one clear next step.',['Mobile-first layouts tested on real phone sizes','Copy and structure built around how your customers actually buy','Fast static hosting where it fits, so you are not paying for servers you do not need']),
  ('shop','Ecommerce and Shopify storefronts','Branded storefronts that sell from your existing Shopify inventory. Multiple sites can share one catalog and one checkout, so you launch new brands without running new stores.',['Multi-item carts that hand off to Shopify checkout','Live prices and stock pulled from your catalog','Product grids, filters and sticky carts that work with one thumb']),
@@ -123,11 +99,17 @@ def page(path, title, desc, body, active='', extra_ld=None, noindex=False):
 <script src="/assets/site.js?v={VER}" defer></script>
 </body></html>'''
 
-def work_card(w, big=False):
+APPS = [('tenten-command-center', 'Ten Ten Command Center'), ('namaste-hq', 'Namaste Command Center — HQ'), ('namaste-command-center', 'Namaste Command Center — Growth'), ('tenten-questions', 'TenTen Questions'), ('camws-scholar-hub-demo', 'CAMWS Scholar Hub Demo'), ('namaste-tarot-school', 'Online Tarot School'), ('namaste-app', 'Namaste App'), ('restockfee-api-dev', 'ReStockFee'), ('nyc-camera-alert', 'NYC Camera Alert'), ('shila-ch26-study-exam', 'Chapter 26 Study Exam'), ('pubg-custom', 'PUBG Custom'), ('iditarod-trail-explorer', 'Iditarod Trail Explorer'), ('namaste-live-shopping', 'Namaste Live Shopping'), ('date-raffle', 'Date Raffle'), ('namaste-reader-pages-preview', 'Reader Pages Preview'), ('namaste-reader-calendar-proxy', 'Reader Calendar Proxy'), ('namaste-tarot-assets', 'Tarot School Assets'), ('amazon-hub', 'Amazon Hub Operations'), ('namaste-live-readers', 'Namaste Live Readers')]
+
+def work_card(w, big=False, compact=False):
     d, t, k, b, s = w
     slug = d.split('.')[0]; url = ('https://' if s else 'http://') + d + '/'
+    ext = 'jpg' if os.path.exists(os.path.join(OUT, 'assets/work', slug + '.jpg')) else 'svg'
+    alt = ('Screenshot of ' if ext == 'jpg' else 'Brand cover for ') + t
+    if compact:
+        return f'<article class="wcard"><a href="{url}" target="_blank" rel="noopener"><div class="shot"><img src="/assets/work/{slug}.{ext}" alt="{E(alt)}" width="960" height="600" loading="lazy" decoding="async"></div><div class="wmeta"><h3>{E(t)}</h3></div></a></article>'
     return f'''<article class="wcard{' big' if big else ''}"><a href="{url}" target="_blank" rel="noopener">
-<div class="shot"><img src="/assets/work/{slug}.jpg" alt="Screenshot of {E(t)} ({d})" width="960" height="600" loading="lazy" decoding="async"></div>
+<div class="shot"><img src="/assets/work/{slug}.{ext}" alt="{E(alt)}" width="960" height="600" loading="lazy" decoding="async"></div>
 <div class="wmeta"><span class="kind">{E(k)}</span><h3>{E(t)}</h3><p>{E(b)}</p><span class="dom">{d} &#8599;</span></div></a></article>'''
 
 def cta():
@@ -162,13 +144,16 @@ def services():
         f'''<section class="hero sm"><div class="wrap"><p class="eyebrow">Services</p><h1>Everything your business needs <em>to speak up online.</em></h1><p class="lede">Pick one service or bring us the whole thing. We handle design, build, launch and visibility.</p></div></section>
 <div class="wrap">{blocks}</div>{cta()}''', '/services/')
 
+def app_card(app):
+    slug, title = app
+    return f'<article class="wcard"><div class="project-tile"><div class="shot"><img src="/assets/work/{slug}.svg" alt="Brand cover for {E(title)}" width="960" height="600" loading="lazy" decoding="async"></div><div class="wmeta"><h3>{E(title)}</h3></div></div></article>'
+
 def work():
-    return page('/work/', 'Work | Live Websites & Storefronts We Built | Mouth Off Media',
-        'Live websites built by Mouth Off Media: Shopify storefronts, gift finders and NYC local directories, all live on the web today.',
-        f'''<section class="hero sm"><div class="wrap"><p class="eyebrow">Work</p><h1>Live sites. <em>Go poke at them.</em></h1>
-<p class="lede">These are real, live websites. They are our in-house network for Namaste Bookshop, a sister business under the same ownership on West 14th Street in Manhattan. Each site has its own brand and niche, and all of them sell from one shared Shopify inventory and checkout.</p></div></section>
-<section class="sec"><div class="wrap"><div class="work all">{''.join(work_card(w) for w in WORK)}</div>
-<p class="muted small">Screenshots taken from the live sites.</p></div></section>{cta()}''', '/work/')
+    return page('/work/', 'Work | Websites & Apps We Built | Mouth Off Media',
+        'A visual collection of websites, apps and experiments by Mouth Off Media.',
+        f'''<section class="hero sm"><div class="wrap"><p class="eyebrow">Work</p><h1>Sites. Apps. <em>Made by us.</em></h1></div></section>
+<section class="sec"><div class="wrap"><div class="sec-h"><h2>Apps &amp; experiments</h2></div><div class="work all compact">{''.join(app_card(a) for a in APPS)}</div></div></section>
+<section class="sec"><div class="wrap"><div class="sec-h"><h2>Websites</h2></div><div class="work all compact">{''.join(work_card(w, compact=True) for w in WORK)}</div></div></section>{cta()}''', '/work/')
 
 def process():
     steps = ''.join(f'<section class="svc-full"><span class="n">{i+1:02d}</span><div><h2>{E(a)}</h2><p>{E(b)}</p></div></section>' for i, (a, b) in enumerate(STEPS))
@@ -255,7 +240,7 @@ Contact: phone {CONTACT_PHONE}, email {CONTACT_EMAIL}. Pricing is quoted per pro
 - [Contact]({SITE}/contact/): start a project
 
 ## Live work
-''' + ''.join(f'- [{w[1]}](https://{w[0]}/): {w[2]}. {w[3]}\n' for w in WORK)
+''' + ''.join(f'- [{w[1]}](https://{w[0]}/): {w[2]}. {w[3]}'.rstrip() + '\n' for w in WORK)
     open(os.path.join(OUT, 'llms.txt'), 'w').write(llms)
     man = {"name": "Mouth Off Media", "short_name": "Mouth Off", "description": "Web design, storefronts, web apps and SEO from NYC.",
            "id": "/", "start_url": "/?source=pwa", "scope": "/", "display": "standalone", "orientation": "portrait-primary",
